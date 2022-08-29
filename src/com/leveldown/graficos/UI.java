@@ -1,7 +1,7 @@
-package com.leveldown.graficos;
+package src.com.leveldown.graficos;
 
-import com.leveldown.entity.Player;
-import com.leveldown.main.Game;
+import src.com.leveldown.entity.Player;
+import src.com.leveldown.main.Game;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;

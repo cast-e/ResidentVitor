@@ -1,9 +1,9 @@
-package com.leveldown.entity;
+package src.com.leveldown.entity;
 
-import com.leveldown.main.Game;
-import com.leveldown.main.Sound;
-import com.leveldown.world.Camera;
-import com.leveldown.world.World;
+import src.com.leveldown.main.Game;
+import src.com.leveldown.main.Sound;
+import src.com.leveldown.world.Camera;
+import src.com.leveldown.world.World;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;

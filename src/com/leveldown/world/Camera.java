@@ -1,4 +1,4 @@
-package com.leveldown.world;
+package src.com.leveldown.world;
 
 public class Camera {
    public static int x = 10;

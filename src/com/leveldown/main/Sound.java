@@ -1,4 +1,4 @@
-package com.leveldown.main;
+package src.com.leveldown.main;
 
 import java.applet.Applet;
 import java.applet.AudioClip;
@@ -6,10 +6,10 @@ import java.applet.AudioClip;
 @SuppressWarnings("deprecation")
 public class Sound {
    private AudioClip clip;
-   public static final Sound musicBackground = new Sound("/music.wav");
-   public static final Sound hurtEffect = new Sound("/hurt.wav");
-   public static final Sound shootEffect = new Sound("/shoot.wav");
-   public static final Sound pegarEffect = new Sound("/pegar.wav");
+   public static final Sound musicBackground = new Sound("/res/sounds/music.wav");
+   public static final Sound hurtEffect = new Sound("/res/sounds/hurt.wav");
+   public static final Sound shootEffect = new Sound("/res/sounds/shoot.wav");
+   public static final Sound pegarEffect = new Sound("/res/sounds/pegar.wav");
 
 private Sound(String name) {
       try {

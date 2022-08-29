@@ -1,6 +1,6 @@
-package com.leveldown.world;
+package src.com.leveldown.world;
 
-import com.leveldown.main.Game;
+import src.com.leveldown.main.Game;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;

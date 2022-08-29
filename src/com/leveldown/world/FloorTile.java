@@ -1,4 +1,4 @@
-package com.leveldown.world;
+package src.com.leveldown.world;
 
 import java.awt.image.BufferedImage;
 

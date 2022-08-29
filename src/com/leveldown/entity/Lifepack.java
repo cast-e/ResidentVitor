@@ -1,4 +1,4 @@
-package com.leveldown.entity;
+package src.com.leveldown.entity;
 
 import java.awt.image.BufferedImage;
 
