@@ -42,6 +42,21 @@ public class UI {
             g.drawString(">>> Pressione Enter para reiniciar <<<", 10, 120);
          }
       }
-
+      if (Game.gameSaved) {
+          g2.setColor(new Color(0, 0, 0, 100));
+    	  g.fillRect(103 , 84, 60 , 18);
+          g.setColor(Color.white);
+          g2.setFont(new Font("arial", 1, 10));
+          g.drawString("Jogo Salvo", 105, 95);
+      }
+      
+      if (Game.gameLoaded) {
+          g2.setColor(new Color(0, 0, 0, 100));
+    	  g.fillRect(103 , 84, 82 , 18);
+          g.setColor(Color.white);
+          g2.setFont(new Font("arial", 1, 10));
+          g.drawString("Jogo Carregado", 105, 95);
+      }
+      
    }
 }
