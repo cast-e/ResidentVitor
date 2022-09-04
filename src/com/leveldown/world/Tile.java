@@ -12,6 +12,12 @@ public class Tile {
    public static BufferedImage TILE_WALL2;
    public static BufferedImage TILE_FLOOR3;
    public static BufferedImage TILE_WALL3;
+   public static BufferedImage TILE_FLOOR4;
+   public static BufferedImage TILE_WALL4;
+   public static BufferedImage TILE_FLOOR5;
+   public static BufferedImage TILE_WALL5;
+   public static BufferedImage TILE_FLOOR6;
+   public static BufferedImage TILE_WALL6;
    private BufferedImage sprite;
    private int x;
    private int y;
@@ -23,6 +29,12 @@ public class Tile {
       TILE_WALL2 = Game.spritesheet.getSprite(16, 48, 16, 16);
       TILE_FLOOR3 = Game.spritesheet.getSprite(0, 64, 16, 16);
       TILE_WALL3 = Game.spritesheet.getSprite(16, 64, 16, 16);
+      TILE_FLOOR4 = Game.spritesheet.getSprite(0, 80, 16, 16);
+      TILE_WALL4 = Game.spritesheet.getSprite(16, 80, 16, 16);
+      TILE_FLOOR5 = Game.spritesheet.getSprite(0, 96, 16, 16);
+      TILE_WALL5 = Game.spritesheet.getSprite(16, 96, 16, 16);
+      TILE_FLOOR6 = Game.spritesheet.getSprite(0, 128, 16, 16);
+      TILE_WALL6 = Game.spritesheet.getSprite(16, 128, 16, 16);
    }
 
    public Tile(int x, int y, BufferedImage sprite) {

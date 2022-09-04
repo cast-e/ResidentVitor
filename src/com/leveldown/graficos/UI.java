@@ -26,7 +26,7 @@ public class UI {
       g.fillRect(80, 4, (int)(Player.ammo / Player.maxAmmo * 50.0D), 8);
       g.setColor(Color.black);
       g2.setFont(new Font("arial", 1, 10));
-      g.drawString("⁍ " + (int)Player.ammo + "/" + (int)Player.maxAmmo, 80, 11);
+      g.drawString("> " + (int)Player.ammo + "/" + (int)Player.maxAmmo, 80, 11);
       g.setColor(Color.black);
       g2.setFont(new Font("arial", 1, 10));
       g.drawString("FPS: " + Game.FPS, 160, 11);
