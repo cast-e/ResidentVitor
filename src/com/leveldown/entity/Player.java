@@ -36,7 +36,7 @@ public class Player extends Entity {
    public boolean isDamaged;
    private int damageFrame;
    public boolean shoot;
-   public double life;
+   public int life;
    public double maxLife;
 
    public Player(int x, int y, int width, int heigth, BufferedImage sprite) {
@@ -52,7 +52,7 @@ public class Player extends Entity {
       this.isDamaged = false;
       this.damageFrame = 0;
       this.shoot = false;
-      this.life = 100.0D;
+      this.life = 100;
       this.maxLife = 100.0D;
       this.rightPlayer = new BufferedImage[4];
       this.leftPlayer = new BufferedImage[4];
@@ -151,7 +151,7 @@ public class Player extends Entity {
 
    public void checkVida() {
       if (this.life <= 0.0D) {
-         this.life = 0.0D;
+         this.life = 0;
          Game.gameState = "GAME_OVER";
          this.arma = false;
          ammo = 0.0D;
@@ -196,7 +196,7 @@ public class Player extends Entity {
                Sound.pegarEffect.play();
                this.life += 10.0D;
                if (this.life >= 100.0D) {
-                  this.life = 100.0D;
+                  this.life = 100;
                }
 
                Game.entities.remove(i);
